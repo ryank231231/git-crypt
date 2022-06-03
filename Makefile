@@ -4,6 +4,8 @@
 # See COPYING file for license information.
 #
 
+CC = aarch64-w64-mingw32-cc
+CXX = aarch64-w64-mingw32-c++
 CXXFLAGS ?= -Wall -pedantic -Wno-long-long -O2
 CXXFLAGS += -std=c++11
 PREFIX ?= /usr/local
